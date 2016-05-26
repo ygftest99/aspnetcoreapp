@@ -11,11 +11,10 @@ namespace aspnetcoreapp
         {
             app.Run(context =>
             {
-<<<<<<< Updated upstream
+
                 return context.Response.WriteAsync("GIt test Hello from ASP.NET Core!  w22 Guofa yang");
-=======
-                return context.Response.WriteAsync("GIt 222   test Hello from ASP.NET Core!  w22 Guofa yang");
->>>>>>> Stashed changes
+                
+                
                 
             });
         }
